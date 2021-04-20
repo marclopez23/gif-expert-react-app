@@ -1,1 +1,1 @@
-# GIF Expert App
+# GIF Expert App - React Practice
