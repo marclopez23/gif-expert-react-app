@@ -2,16 +2,14 @@ import React, { useState } from "react";
 import AddCategory from "../components/AddCategory";
 
 const GifExpertApp = () => {
-  const [categories, setCategories] = useState([
-    "Simpsons",
-    "React",
-    "Developer",
+  const [categories, setCategories] = useState([  
+    "React"
   ]);
 
   return (
     <>
       <h2>GifExpertAPP</h2>
-      <AddCategory categories={categories} func={setCategories} />
+      <AddCategory func={setCategories} />
       <hr />
       <article>
         <ol>
