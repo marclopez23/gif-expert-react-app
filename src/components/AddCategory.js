@@ -9,7 +9,7 @@ const AddCategory = ({ func }) => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    inputText.trim().length > 0 && func((state) => [...state, inputText]);
+    inputText.trim().length > 0 && func((state) => [inputText, ...state]);
     setText("");
   };
 

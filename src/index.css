@@ -10,3 +10,28 @@ input {
   width: 100%;
   font-size: 1.2rem;
 }
+
+.card-grid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.card {
+  align-content: center;
+  border: 1px solid #636361;
+  border-radius: 6px;
+  margin-bottom: 1rem;
+  margin-right: 1rem;
+  overflow: hidden;
+  width: fit-content;
+}
+
+.card img {
+  max-height: 150px;
+}
+
+.card p {
+  padding: 1rem;
+  width: 200px;
+}
